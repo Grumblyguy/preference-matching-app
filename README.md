@@ -1,4 +1,4 @@
-# COMP4511 Group Project: Pref'd
+# Group Project: Pref'd
 This repo is a clone of the repo used for the development of this application, it was completed by me and three other students at UNSW and was fully functional upon completion.
 
 ## Server
