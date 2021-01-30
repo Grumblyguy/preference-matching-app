@@ -1,0 +1,12 @@
+#!/bin/sh
+curl -X GET "http://0.0.0.0/nuke" -H  "accept: application/json"
+curl -X POST "http://0.0.0.0/users?id=test&password=test" -H  "accept: application/json"
+curl -X POST "http://0.0.0.0/users?id=test1&password=test1" -H  "accept: application/json"
+curl -X POST "http://localhost/user/test/friend_request?friend_id=test1" -H  "accept: application/json"
+curl -X POST "http://localhost/user/test1/friend_request?friend_id=test" -H  "accept: application/json"
+curl -X DELETE "http://localhost/user/test1/friend_remove?friend_id=test" -H  "accept: application/json"
+curl -X GET "http://localhost/user/test" -H  "accept: application/json"
+curl -X GET "http://localhost/user/test1" -H  "accept: application/json"
+curl -X POST "http://localhost/user/test1/friend_request?friend_id=test" -H  "accept: application/json"
+curl -X DELETE "http://localhost/user/test1/friend_remove?friend_id=test" -H  "accept: application/json"
+curl -X GET "http://localhost/user/test1" -H  "accept: application/json"
