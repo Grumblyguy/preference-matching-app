@@ -29,7 +29,6 @@ export default function Nav({ navigation }) {
         } else if (route.name === 'Home') {
           iconName = 'ios-home';
         }
-        // You can return any component that you like here!
         return <Icon name={iconName} size={32} color={focused ? 'orange' : 'grey'} />;
       },
     })}
