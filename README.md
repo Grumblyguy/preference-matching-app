@@ -1,5 +1,5 @@
 # Group Project: Pref'd
-This repo is a clone of the repo used for the development of this application, it was completed by me and three other students at UNSW and was fully functional upon completion.
+This repo is a clone of the repo used for the development of this application, it was lead by me and completed alongside three other students at UNSW. The application was fully functional upon completion with the remote database setup (see below).
 
 ## Server
 
